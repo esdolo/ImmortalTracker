@@ -1,0 +1,19 @@
+running:
+  covariance: default
+  score_threshold: 0.5
+  tracker: cp_plus #([immortal,cp_plus])
+  max_age_since_update:
+    cp_plus: 2
+  min_hits_to_birth: 
+    immortal: 1
+    cp_plus: 1
+  match_type: bipartite #greedy
+  asso: iou
+  asso_thres:
+    iou: 0.9
+    giou: 1.5
+    m_dis: 5
+
+data_loader:
+  nms: True
+  nms_thres: 0.25
