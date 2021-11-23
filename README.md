@@ -83,6 +83,9 @@ python main_nuscenes.py --name immortal --det_name cp --config_path configs/nu_c
 ### Evaluation with nuScenes official devkit:
 Follow https://github.com/nutonomy/nuscenes-devkit to build the official evaluation tools for nuScenes. Run the following command for evaluation:
 ```
+#To convert tracking results into .json format
+bash evaluation/nuscenes/pipeline.sh immortal
+#To evaluate
 python <path to nuscenes-devkit>/nuscenes-devkit/python-sdk/nuscenes/eval/tracking/evaluate.py \
 "./mot_results/nuscenes/validation_2hz/immortal/results/results.json" \
 --output_dir "./mot_results/nuscenes/validation_2hz/immortal/results" \
