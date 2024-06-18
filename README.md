@@ -1,4 +1,5 @@
-# Immortal_tracker
+# Immortal Tracker
+Official implementation of [2111.13672] Immortal Tracker: Tracklet Never Dies https://arxiv.org/abs/2111.13672
 ## Prerequisite
 Our code is tested for Python 3.6.\
 To install required liabraries:
