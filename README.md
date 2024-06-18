@@ -1,5 +1,6 @@
 # Immortal Tracker
 Official implementation of [2111.13672] Immortal Tracker: Tracklet Never Dies https://arxiv.org/abs/2111.13672
+
 ## Prerequisite
 Our code is tested for Python 3.6.\
 To install required liabraries:
@@ -92,5 +93,18 @@ python <path to nuscenes-devkit>/nuscenes-devkit/python-sdk/nuscenes/eval/tracki
 --output_dir "./mot_results/nuscenes/validation_2hz/immortal/results" \
 --eval_set "val" \
 --dataroot <path to nuScenes>/nuscenes
+```
+
+## Bibtex
+
+If this work is helpful for your research, please consider citing the following BibTeX entry.
+
+```
+@article{wang2021immortal,
+  title={Immortal tracker: Tracklet never dies},
+  author={Wang, Qitai and Chen, Yuntao and Pang, Ziqi and Wang, Naiyan and Zhang, Zhaoxiang},
+  journal={arXiv preprint arXiv:2111.13672},
+  year={2021}
+}
 ```
 
