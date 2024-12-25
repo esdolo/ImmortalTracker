@@ -3,7 +3,7 @@ Official implementation of [2111.13672] Immortal Tracker: Tracklet Never Dies ht
 
 ## Prerequisite
 Our code is tested for Python 3.6.\
-To install required liabraries:
+To install required libraries:
 ```
 pip install -r requirements.txt
 ```
